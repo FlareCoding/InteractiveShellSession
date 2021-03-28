@@ -1,8 +1,3 @@
-# InteractiveShellSession
-Interactive Shell Session (ISS) is a single header and source file library giving the user ability to emulate an interactive console session on Windows operating system.
-
-# Sample Usage
-```cpp
 #include "ISS/iss.h"
 #include <memory>
 #include <iostream>
@@ -33,4 +28,3 @@ int main(int argc, char* argv[])
 	printf("Shell Running Status: %s\n", iss::InteractiveShell::interpret_return_code(rc).c_str());
 	return 0;
 }
-```
